@@ -8,6 +8,8 @@ import lejos.hardware.motor.EV3LargeRegulatedMotor;
 import lejos.robotics.navigation.DifferentialPilot;
 import lejos.utility.Delay;
 
+
+//test
 public class Robot {
 
 	private final int standardSpeed = 200;
@@ -101,6 +103,7 @@ public class Robot {
 	}
 
 	public void updateDirections(String string) {
+		//test
 		if (!Main.runs)
 			return;
 		String[] split = string.split(":");
